@@ -11,7 +11,7 @@
     <title>Register</title>
 </head>
 <body>
-<br method="post">
+<form method="post" action="register">
 
     username<input type="text" name="username"/><br/>
     password<input type="password" name="password"/><br/>
