@@ -27,4 +27,16 @@
         <servlet-name>RegisterServlet</servlet-name>
         <url-pattern>/register</url-pattern>
     </servlet-mapping>
+<filter>
+    <filter-name>xiongjianFilter</filter-name>
+    <filter-class>com.lab2.xiongjianFilter</filter-class>
+</filter>
+    <filter-mapping>
+        <filter-name>xiongjianFilter</filter-name>
+        <url-pattern>/lab2/welcome.jsp</url-pattern>
+    </filter-mapping>
+
+
+
+    
 </web-app>
